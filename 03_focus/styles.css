@@ -1,0 +1,16 @@
+body {
+    display: block;
+    margin: 8px;
+}
+input.first:focus {
+    color: green;
+    font-weight: bold;
+}
+
+input.second:focus {
+    color: orange;
+}
+
+input.third:focus {
+    width: 300px;
+}

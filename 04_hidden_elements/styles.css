@@ -1,0 +1,14 @@
+p.text {
+    display: none;
+    background: yellow;
+    color: red;
+    padding: 20px;
+}
+
+div:hover p.text {
+    display: block;
+}
+
+div:hover p.text2 {
+    color: orange;
+}
