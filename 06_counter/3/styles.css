@@ -1,0 +1,14 @@
+.container {
+    counter-reset: count ;
+}
+
+p:before {
+    counter-increment: count;
+    content: 'Абзац №' counter(count) '. ';
+}
+
+div:after {
+    counter-increment: count;
+    content: 'Абзац сброса - после него нумерация начнется сначала.';
+    font-weight: bold;
+}

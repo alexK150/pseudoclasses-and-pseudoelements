@@ -1,0 +1,8 @@
+#parent {
+    counter-reset: test 6;
+}
+
+#parent p::before {
+    counter-increment: test;
+    content: counter(test);
+}

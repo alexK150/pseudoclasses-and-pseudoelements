@@ -1,0 +1,17 @@
+/*.container {*/
+/*    counter-reset: count;*/
+/*}*/
+
+/*p:before {*/
+/*    counter-increment: count;*/
+/*    content: 'Абзац №' counter(count) '. ';*/
+/*}*/
+
+.container {
+    counter-reset: count 6;
+}
+
+p:before {
+    counter-increment: count;
+    content: 'Абзац №' counter(count) '. ';
+}
