@@ -1,0 +1,7 @@
+/*li:not(:first-child) {*/
+/*    color: red;*/
+/*}*/
+
+li:not(:nth-child(3)){
+    color: red;
+}

@@ -1,0 +1,9 @@
+input.input2:disabled{
+    border: red;
+    box-shadow: 0 0 3px red;
+}
+
+input {
+    border: dodgerblue;
+    box-shadow: 0 0 3px dodgerblue;
+}

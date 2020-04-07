@@ -1,0 +1,10 @@
+ul li{
+    border: 1px solid red;
+    width: 100px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+li:empty{
+    border-color: dodgerblue;
+}
